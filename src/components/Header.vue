@@ -54,16 +54,22 @@ export default {
 }
 
 .header-text {
-    color:rgb(255, 250, 250);
+    color: rgb(255, 250, 250);
     position: absolute;
-    font-size:4rem;
+    font-size: 4rem;
     font-family: Arial, Helvetica, sans-serif;
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust to perfectly center the text */
-    background-color: none; /* Optional: background with transparency for better visibility */
-    text-align: center; /* Optional: center the text */
-    width: 100%; /* Optional: ensure text container spans full width */
+    top: 50%;
+    /* Center vertically */
+    left: 50%;
+    /* Center horizontally */
+    transform: translate(-50%, -50%);
+    /* Adjust to perfectly center the text */
+    background-color: none;
+    /* Optional: background with transparency for better visibility */
+    text-align: center;
+    /* Optional: center the text */
+    width: 100%;
+    /* Optional: ensure text container spans full width */
 }
 
 .header-image {
